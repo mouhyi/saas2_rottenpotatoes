@@ -14,6 +14,7 @@ Rottenpotatoes::Application.routes.draw do
   #   resources :products
   resources :movies
   match "/test" => "movies#test"
+  match "sort_by_title" => "movies#sort_by_title"
 
   # Sample resource route with options:
   #   resources :products do
